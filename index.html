@@ -5,8 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check Profit loss </title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <h2>Check Profit/Loss on your Stock</h2>
+         <input type="number" id="purchase-price">
+         <label for="purchase-price">Purchase Price</label>
+         <br>
+         <input type="number" id="stock-quantity">
+         <label for="stock-quantity">Stock Quantity</label>
+         <br>
+         <input type="number" id="current-price">
+         <label for="current-price">Current Price</label>
+         <button id="check-btn">Check</button>
+         <p id="message"></p>
+    </div>
 </body>
 </html>
