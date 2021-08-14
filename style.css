@@ -23,10 +23,11 @@ input{
     margin: 0.5rem auto;
     display:inline-block;
     border:0.2rem solid var(--primary-color);
+    border-radius: 0.3rem;
 }
 button{
     display: block;
-    width:80%;
+    width:50%;
     margin: 1rem auto;
     height:2rem;
     background-color: var(--primary-color);
