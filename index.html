@@ -10,13 +10,13 @@
 <body>
     <div class="container">
         <h2>Check Profit/Loss on your Stock</h2>
-         <input type="number" id="purchase-price">
+         <input type="number" id="purchase-price" min="0">
          <label for="purchase-price">Purchase Price</label>
          <br>
-         <input type="number" id="stock-quantity">
+         <input type="number" id="stock-quantity" min="0">
          <label for="stock-quantity">Stock Quantity</label>
          <br>
-         <input type="number" id="current-price">
+         <input type="number" id="current-price" min="0">
          <label for="current-price">Current Price</label>
          <button id="check-btn">Check</button>
          <p id="message"></p>
